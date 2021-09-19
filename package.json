@@ -1,0 +1,21 @@
+{
+  "name": "dicebear-158",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dicebear/avatars": "^4.9.1",
+    "@dicebear/open-peeps": "^4.9.1",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/fs-extra": "^9.0.12",
+    "@types/sharp": "^0.29.2",
+    "fs-extra": "^10.0.0",
+    "sharp": "^0.29.1",
+    "ts-node": "^10.2.1"
+  }
+}
