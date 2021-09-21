@@ -53,9 +53,7 @@ const size: number = 200;
 
           // Get default probability
           const defaultProbability =
-            typeof probability.default === "string"
-              ? parseInt(probability.default)
-              : 50;
+            typeof probability.default === "number" ? probability.default : 50;
 
           // Set probability to either 0 or 100 to know clearly later whether value was used or not.
           if (prng.bool(defaultProbability)) {
